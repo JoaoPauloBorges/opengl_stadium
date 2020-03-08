@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{ac6700ba-d845-4714-a7fa-dc988ba2d326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texturas">
+      <UniqueIdentifier>{ba022bb9-86ae-4a96-a850-8748f27ec1c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Estadio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tgaload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imagens\azulejo.jpg">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="imagens\banheiro.jpg">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="imagens\easteregg.jpg">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="imagens\elevador.jpg">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="imagens\elevador2.jpg">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="texturas\aneis.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\campo.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\chao.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\chao2.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\contencao.jpg">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\contencao.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\faixav.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\pilastra.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\sky.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\Telao.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+    <Image Include="texturas\teto.tga">
+      <Filter>Resource Files\Texturas</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tgaload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
